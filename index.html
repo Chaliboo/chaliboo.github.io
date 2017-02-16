@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://res.cloudinary.com/chaliboo/raw/upload/v1484487676/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+<nav>
+  <div class="row">
+    <i class="icon-menu visible-xs pull-right"></i>
+    <a href="#" class="logo col-sm-1 col-xs-push-1 visible-xs" data-page="home">Chalom.A</a>
+    <a href="#" class="logo col-sm-1 col-sm-push-1 hidden-xs" data-page="home">Chalom.Asseraf</a>
+    <a class="col-sm-1 col-xs-push-1 col-sm-push-2" data-page="works" href="#">works</a>
+    <a class="col-sm-1 col-xs-push-1 col-sm-push-2" data-page="about" href="#">about</a>
+    <a class="col-sm-1 col-xs-push-1 col-sm-push-2" data-page="contact" href="#">contact</a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<article class="home">
+  <section class="row">
+    <div class="header col-xs-6 col-xs-push-1">
+      <h1>UX DESIGNER</br>AND DEVELOPER</h1>
+      <!--   MAIN BTN -->
+      <a href="#" class="btn btn-default" data-page="works">Selected Works</a>
+    </div>
+  </section>
+  <!--   COVER VIDEO -->
+  <div class="homepage-hero-module hidden-xs">
+      <div class="video-container">
+          <video autoplay loop class="fillWidth">
+              <source src="vids/home-bg.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+          <div class="poster hidden">
+              <img src="PATH_TO_JPEG" alt="">
+          </div>
+      </div>
+  </div>
+</article>
+
+<!-- WORKS -->
+<article class="works">
+  <section class="projects-list"></section>
+  <!-- VIEWER -->
+  <section class="row viewer hidden">
+    <div class="wrapper"></div>
+    <div class="ctrls">
+      <i class="icon-arrow-left-circle" aria-hidden="true"></i>
+      <i class="icon-arrow-right-circle" aria-hidden="true"></i>
+      <i class="icon-close" aria-hidden="true"></i>
+    </div>
+  </section>
+</article>
+
+<!-- ABOUT -->
+<article class="about">
+  <section class="row goal">
+    <div class="col-xs-6 col-sm-4 col-lg-3 col-xs-push-1 col-sm-push-2">
+      <img src="http://res.cloudinary.com/chaliboo/image/upload/v1486498308/portfolio/me2.jpg" class="img-circle portrait">
+      <h2>ABOUT</h2>
+      <p>Ever since I was a child I wanted to be an inventor. I loved collecting skills and was thrilled to imagine the things I could accomplish with my newly acquired ones.</p>
+      <p>Skill after skill my career path changed direction, today I have over ten years of experience in design, branding, development, ux and a varaitey of tools and frameworks, both in companies and as a freelance.</p>
+      <p>I'm a passionate, fast and eager learner with a firm belief in the power of design, who's currently in love with the concept of iteration to perfection.</p>
+      <p>These days I'm looking for the right place and people to put all of my knowledge into practice, helping to build something big and meaningful while acquiring new skills.</p>
+    </div>
+  </section>
+</article>
+
+<!-- CONTACT -->
+<article class="contact">
+  <section>
+    <!-- info -->
+    <div class="row">
+      <ul class="contact-info col-xs-6 col-xs-push-1 col-sm-push-2">
+        <li>Chalom Asseraf</li>
+        <li><span>E</span> <a href="mailto:chaliboo@gmail.com">chaliboo@gmail.com</a></li>
+        <li><span>T</span> <a href="tel:972052172266">+972 05 217 2266</a></li>
+      </ul>
+    </div>
+    <!-- SOCIAL -->
+    <div class="row">
+      <ul class="social col-xs-6 col-xs-push-1 col-sm-push-2">
+        <li class="col-xs-6 col-sm-1"><a href="https://www.linkedin.com/in/shalomasseraf/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+        <li class="col-xs-6 col-sm-1"><a href="https://www.behance.net/shalomhuss6ca3" target="_blank"><i class="fa fa-behance fa-2x" aria-hidden="true"></i></a></li>
+        <li class="col-xs-6 col-sm-1"><a href="https://dribbble.com/chaliboo" target="_blank"><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </section>
+</article>
+<!-- SCRIPTS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

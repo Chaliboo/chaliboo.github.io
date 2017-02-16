@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:300,400'>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/weather-app.css">
+</head>
+
+<body>
+  <section class="row description">
+    <div class="col-sm-4 col-sm-push-1">
+      <h1>WEATHER APP</h1>
+      <p>A minimalistic, proof of concept, weather app using mvc without a framework, pure css animations that change based on the weather and day time. By default the app shows the weather on user location.</p>
+      <p>Try plaing around with it.</p>
+    </div>
+</section>
+<section class="app">
+  <div id="weather-app" class="container text-center">
+    <div class="loader"></div>
+    <div class="message"></div>
+    <button class="btn units c"></button>
+    <svg
+     viewBox="0 0 375 667"
+     class="mountain">
+      <path class="light" d="M375,325.1l-142.4-70.6c0,0-77.3,64.5-135.9,102C59,380.6,21.7,404.2,0,418v249h375V325.1z"/>
+      <path class="shade" d="M375,324.6l-142.4-70.1c0,0-4.7,34-23.4,49.2s-7,16.4-30.5,45.7s-75,123-83.2,128.9s-42.2,42.2-42.2,42.2 S19,542.4,0,555.5V667h375V324.6z"/>
+    </svg>
+
+    <div id="city"></div>
+    <div id="desc"></div>
+    <div id="temp"></div>
+    <label for="input-city">
+      <input type="text" class="form-control input-city hidden" id="input-city" placeholder="City Name"/>
+      <i class="glyphicon glyphicon-search search"></i>
+      <div class="btn submit hidden">Show Weather!</div>
+      <ul class="predictions"><ul>
+    </label>
+  </div>
+</section>
+  <script src="./js/weather-app.js"></script>
+</body>
+</html>
