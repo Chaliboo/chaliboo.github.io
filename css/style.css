@@ -209,12 +209,12 @@ nav a:focus {
   background: #1abc9c;
 }
 .works .project.simplecom:after {
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484945941/portfolio/logo-simplecom.svg") no-repeat center;
+  background: url("../img/portfolio/logo-simplecom.svg") no-repeat center;
   background-size: contain;
 }
 .works .project.simplecom:before {
   opacity: 0;
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484949126/portfolio/simplecom-bg.jpg") no-repeat;
+  background: url("../img/portfolio/simplecom-bg.jpg") no-repeat;
   background-size: 120%;
 }
 .works .project.simplecom:hover:before {
@@ -225,12 +225,12 @@ nav a:focus {
   background: #8e44ad;
 }
 .works .project.mbt:after {
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484945942/portfolio/logo-mbt.svg") no-repeat center;
+  background: url("../img/portfolio/logo-mbt.svg") no-repeat center;
   background-size: contain;
 }
 .works .project.mbt:before {
   opacity: 0;
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484949126/portfolio/mbt-bg.jpg") no-repeat;
+  background: url("../img/portfolio/mbt-bg.jpg") no-repeat;
   background-size: 120%;
 }
 .works .project.mbt:hover:before {
@@ -241,12 +241,12 @@ nav a:focus {
   background: #fff;
 }
 .works .project.audi:after {
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484945965/portfolio/audi.svg") no-repeat center;
+  background: url("../img/portfolio/audi.svg") no-repeat center;
   background-size: contain;
 }
 .works .project.audi:before {
   opacity: 0;
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1485020951/portfolio/audi-bg.jpg") no-repeat;
+  background: url("../img/portfolio/audi-bg.jpg") no-repeat;
   background-size: 120%;
 }
 .works .project.audi:hover:before {
@@ -260,12 +260,12 @@ nav a:focus {
   background: #3498db;
 }
 .works .project.push:after {
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484947697/portfolio/logo-push.svg") no-repeat center;
+  background: url("../img/portfolio/logo-push.svg") no-repeat center;
   background-size: contain;
 }
 .works .project.push:before {
   opacity: 0;
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1485021122/portfolio/push-bg.jpg") no-repeat;
+  background: url("../img/push-bg.jpg") no-repeat;
   background-size: 120%;
 }
 .works .project.push:hover:before {
@@ -276,12 +276,12 @@ nav a:focus {
   background: #2c3e50;
 }
 .works .project.micro:after {
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484947697/portfolio/logo-micro.svg") no-repeat center;
+  background: url("../img/portfolio/logo-micro.svg") no-repeat center;
   background-size: contain;
 }
 .works .project.micro:before {
   opacity: 0;
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1485021121/portfolio/micro-bg.jpg") no-repeat;
+  background: url("../img/portfolio/micro-bg.jpg") no-repeat;
   background-size: 120%;
 }
 .works .project.micro:hover:before {
@@ -295,12 +295,12 @@ nav a:focus {
   background: #e67e22;
 }
 .works .project.weather:after {
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484947697/portfolio/logo-weather.svg") no-repeat center;
+  background: url("../img/portfolio/logo-weather.svg") no-repeat center;
   background-size: contain;
 }
 .works .project.weather:before {
   opacity: 0;
-  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1484949131/portfolio/wather-bg.jpg") no-repeat;
+  background: url("../img/portfolio/wather-bg.jpg") no-repeat;
   background-size: 120%;
 }
 .works .project.weather:hover:before {
