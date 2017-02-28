@@ -462,6 +462,7 @@ nav a:focus {
 .about .goal p {
   line-height: 1.8em;
   margin-bottom: 2em;
+  max-width: 600px;
 }
 @media (max-width: 576px) {
   .about {
