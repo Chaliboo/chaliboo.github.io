@@ -265,7 +265,7 @@ nav a:focus {
 }
 .works .project.push:before {
   opacity: 0;
-  background: url("../img/push-bg.jpg") no-repeat;
+  background: url("../img/portfolio/push-bg.jpg") no-repeat;
   background-size: 120%;
 }
 .works .project.push:hover:before {
