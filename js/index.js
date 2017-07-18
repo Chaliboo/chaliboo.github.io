@@ -74,6 +74,11 @@ function addToHistory(state, projectIndex){
 var pageHeight = window.innerHeight - 100,
     projects = [
       {
+        name: "yadda",
+        hash: "",
+        class: "yadda"
+      },
+      {
         name: "simplecom",
         hash: "aBaWMm",
         class: "simplecom"

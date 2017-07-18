@@ -221,6 +221,28 @@ nav a:focus {
   opacity: 0.2;
   background-size: 130%;
 }
+.works .project.yadda {
+  background: #fff;
+}
+.works .project.yadda:after {
+  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1500409838/portfolio/yadda.svg") no-repeat center;
+  background-size: contain;
+}
+.works .project.yadda:before {
+  opacity: 0;
+  background: url("http://res.cloudinary.com/chaliboo/image/upload/v1500410170/portfolio/yadda-1.jpg") no-repeat;
+  background-size: 120%;
+}
+.works .project.yadda:hover:before {
+  opacity: 0.2;
+  background-size: 130%;
+}
+.works .project.yadda:after {
+  width: 15%;
+}
+.container.yadda .vid-container {
+    padding-bottom: 56.3%;
+}
 .works .project.mbt {
   background: #8e44ad;
 }

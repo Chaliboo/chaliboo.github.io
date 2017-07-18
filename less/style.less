@@ -1,13 +1,13 @@
 /**
  * $GENERAL
- * 
+ *
  */
 @grid-color: rgba(256,256,256,0.05);
 @action-color: salmon;
 @dark-gray: #1f1f1f;
 
 body{
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   background: @dark-gray;
   color: #fff;
@@ -53,7 +53,7 @@ article{
 }
 /**
  * $MAIN NAVIGATION
- * 
+ *
  */
 nav{
   position: fixed;
@@ -101,7 +101,7 @@ nav{
 }
 /**
  * $HOME
- * 
+ *
  */
 .home{
   display: none;
@@ -165,7 +165,7 @@ nav{
 }
 /**
  * $WORKS
- * 
+ *
  */
 .logo-mixin(@url-logo; @url-img){
   &:after{
@@ -180,7 +180,7 @@ nav{
   &:hover:before{
      opacity: 0.2;
      background-size: 130%;
-        
+
   }
 }
 .works{
@@ -237,7 +237,7 @@ nav{
     }
     &.push{
       background: #3498db;
-      .logo-mixin(@url-logo: "http://res.cloudinary.com/chaliboo/image/upload/v1484947697/portfolio/logo-push.svg"; @url-img:"http://res.cloudinary.com/chaliboo/image/upload/v1485021122/portfolio/push-bg.jpg");  
+      .logo-mixin(@url-logo: "http://res.cloudinary.com/chaliboo/image/upload/v1484947697/portfolio/logo-push.svg"; @url-img:"http://res.cloudinary.com/chaliboo/image/upload/v1485021122/portfolio/push-bg.jpg");
     }
     &.micro{
       background: #2c3e50;
@@ -247,6 +247,10 @@ nav{
       }
     }
     &.weather{
+      background: #e67e22;
+      .logo-mixin(@url-logo:"http://res.cloudinary.com/chaliboo/image/upload/v1484947697/portfolio/logo-weather.svg"; @url-img:"http://res.cloudinary.com/chaliboo/image/upload/v1484949131/portfolio/wather-bg.jpg");
+    }
+    &.yadda{
       background: #e67e22;
       .logo-mixin(@url-logo:"http://res.cloudinary.com/chaliboo/image/upload/v1484947697/portfolio/logo-weather.svg"; @url-img:"http://res.cloudinary.com/chaliboo/image/upload/v1484949131/portfolio/wather-bg.jpg");
     }
@@ -294,7 +298,7 @@ nav{
   .works{
     .project{
       width: 100%;
-      padding-bottom: 50%;      
+      padding-bottom: 50%;
     }
    }
 }
@@ -311,7 +315,7 @@ nav{
 }
 /**
  * $ABOUT
- * 
+ *
  */
 .about{
   display: none;
@@ -354,7 +358,7 @@ nav{
 }
 /**
  * CONTACT
- * 
+ *
  */
 .contact{
   display: none;
@@ -414,8 +418,8 @@ nav{
 }
 /**
  * ANIMATIONS
- * 
- */  
+ *
+ */
 @keyframes intro{
   0%{
     display: block;
