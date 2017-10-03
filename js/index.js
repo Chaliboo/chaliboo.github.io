@@ -94,6 +94,11 @@ var pageHeight = window.innerHeight - 100,
         class: "audi"
       },
       {
+        name: "rdish",
+        hash: "YNXRKP",
+        class: "rdish"
+      },
+      {
         name: "push-system",
         hash: "YNXRKP",
         class: "push"

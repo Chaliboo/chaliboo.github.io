@@ -221,6 +221,25 @@ nav a:focus {
   opacity: 0.2;
   background-size: 130%;
 }
+.works .project.rdish {
+  background: #fff;
+}
+.works .project.rdish:after {
+  background: url("../img/portfolio/rdish-logo.svg") no-repeat center;
+  background-size: contain;
+}
+.works .project.rdish:before {
+  opacity: 0;
+  background: url("../img/portfolio/rdish-bg2.png") no-repeat;
+  background-size: 120%;
+}
+.works .project.rdish:hover:before {
+  opacity: 0.2;
+  background-size: 130%;
+}
+.works .project.rdish:after {
+  width: 15%;
+}
 .works .project.yadda {
   background: #fff;
 }
